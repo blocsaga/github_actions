@@ -1,8 +1,8 @@
 name: Simple CI workflow
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 jobs:
   mytestbuild:
     runs-on: ubuntu-latest
